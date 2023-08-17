@@ -1,0 +1,109 @@
+1  git user.name
+    2  git config user.email
+    3  git config user.email "daka201828@gmail.com"
+    4  git config user.email
+    5  git config user.name "Andrea-25-11"
+    6  pwd
+    7  cd Desktop/
+    8  git config --global user.name "Andrea-25-11"
+    9  git config --global user.email "daka201828@gmail.com"
+   10  git config --list
+   11  git config user.name
+   12  git config user.email
+   13  pwd
+   14  mkdir clase4-Informatica
+   15  cd clase4-Informatica/
+   16  git init
+   17  git clone git@github.com:Andrea-25-11/clase4-informatica.git
+   18  ls -al ~/.ssh
+   19  cd ..
+   20  ls -al ~/.ssh
+   21  ssh-keygen -t ed25519 -C "daka201828@gmail.com"
+   22  cd clase4-Informatica/
+   23  git clone git@github.com:Andrea-25-11/clase4-informatica.git
+   24  cd ..
+   25  # start the ssh-agent in the background
+   26  $ eval "$(ssh-agent -s)"
+   27  eval "$(ssh-agent -s)"
+   28  ssh-add ~/.ssh/id_ed25519
+   29  cd clase4-Informatica/
+   30  git clone git@github.com:Andrea-25-11/clase4-informatica.git
+   31  pwd
+   32  cd Desktop/
+   33  cd clase4-Informatica/
+   34  git clone git@github.com:Andrea-25-11/clase4-informatica.git
+   35  git status
+   36  cd clase4-informatica/
+   37  git status
+   38  cd ..
+   39  git status
+   40  cd clase4-informatica/
+   41  git status
+   42  git add .
+   43  git status
+   44  git commit -m "Modificación README.md con los estados de Git"
+   45  git push origin main
+   46  pwd
+   47  ls
+   48  cd Desktop/
+   49  cd Digital_House/
+   50  cd Checkpoint-KarenAndreaNiño/
+   51  git init
+   52  git commit -m "Inicializando repositorio local"
+   53  git remote add origin git@github.com:Andrea-25-11/Checkpoint-KarenAndreaNi-o.git
+   54  git push origin main
+   55  git status
+   56  git commit -m "Inicializando repositorio local"
+   57  git add .
+   58  git commit -m "Inicializando repositorio local"
+   59  git remote add origin git@github.com:Andrea-25-11/Checkpoint-KarenAndreaNi-o.git
+   60  git push origin main
+   61  git push -u origin main
+   62  git remote add origin 200~https://github.com/Andrea-25-11/Checkpoint-KarenAndreaNi-o.git~
+   63  git remote -v
+   64  git status
+   65  pwd
+   66  ls
+   67  touch main.js
+   68  ls
+   69  touch index.html
+   70  git status
+   71  git add .
+   72  got commit -m "Commit 01 de Karen Andrea Niño Angulo"
+   73  git commit -m "Commit 01 de Karen Andrea Niño Angulo"
+   74  git push -u origin main
+   75  git branch feature
+   76  git checkout feature
+   77  mkdir Hardware Software SeguridadInformatica
+   78  ls
+   79  cd Hardware/
+   80  touch resumen.txt
+   81  cd .
+   82  cd ..
+   83  cd SeguridadInformatica/
+   84  touch resumen.txt
+   85  cd ..
+   86  cd Software/
+   87  touch resumen.txt
+   88  gti status
+   89  git status
+   90  ls
+   91  cd ..
+   92  git status
+   93  git add .
+   94  git commit -m "Commit 02 de Karen Andrea Niño Angulo"
+   95  git push origin feature
+   96  git checkout main
+   97  ls
+   98  mv main.js resumenHardware.txt
+   99  ls
+  100  ls
+  101  code .
+  102  mv index.html resumenSoftware.txt
+  103  git status
+  104  git add .
+  105  git status
+  106  pwd
+  107  ls
+  108  touch comandos.txt
+  109  history
